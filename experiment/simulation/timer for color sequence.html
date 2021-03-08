@@ -1,0 +1,299 @@
+<html>
+<head>
+<title>Serial Position Effect</title>
+<style type="text/css">
+#mydiv10{
+	width:210px;
+    margin:0 auto;   
+    text-align:center;
+    font-weight:bold;
+    color:#FFF;
+    margin-bottom: 10px;
+}
+#mydiv101{
+	float:left;
+        width:50px;
+        min-height:50px;
+        background:#5C6BC0;
+	border-style:ridge;
+	border-width:medium;
+}
+#mydiv102{
+	float:left;
+        width:50px;
+        min-height:50px;
+        background:#3F51B5;
+	border-style:ridge;
+	border-width:medium;
+}
+#mydiv103{
+	float:left;
+        width:50px;
+        min-height:50px;
+        background:#283593;
+	border-style:ridge;
+	border-width:medium;
+}
+#mydiv6{
+	width:210px;
+	margin:0 auto;   
+	text-align:center;
+	font-weight:bold;
+	color:#FFF;
+	margin-bottom: 10px;
+}
+#mydiv61{
+	float:left;
+        width:50px;
+        min-height:50px;
+        background:#9CCC65;
+	border-style:ridge;
+	border-width:medium;
+}
+#mydiv62{
+	float:left;
+        width:50px;
+        min-height:50px;
+        background:#7CB342;
+	border-style:ridge;
+	border-width:medium;
+
+}
+#mydiv63{
+	float:left;
+        width:50px;
+        min-height:50px;
+        background:#558B2F;
+	border-style:ridge;
+	border-width:medium;
+}
+#mydiv5{
+	width:210px;
+	margin:0 auto;   
+	text-align:center;
+	font-weight:bold;
+	color:#FFF;
+	margin-bottom: 10px;
+}
+#mydiv51{
+	float:left;
+        width:50px;
+        min-height:50px;
+        background:#FFF59D;
+	border-style:ridge;
+	border-width:medium;
+}
+#mydiv52{
+	float:left;
+        width:50px;
+        min-height:50px;
+        background:#FFEE58;
+	border-style:ridge;
+	border-width:medium;
+}
+#mydiv53{
+	float:left;
+        width:50px;
+        min-height:50px;
+        background:#FDD835;
+	border-style:ridge;
+	border-width:medium;
+}
+#mydiv7{
+	width:210px;
+	margin:0 auto;   
+	text-align:center;
+	font-weight:bold;
+	color:#FFF;
+	margin-bottom: 10px;
+}
+#mydiv71{
+	float:left;
+        width:50px;
+        min-height:50px;
+        background:#E57373;
+	border-style:ridge;
+	border-width:medium;
+}
+#mydiv72{
+	float:left;
+        width:50px;
+        min-height:50px;
+        background:#EF5350;
+	border-style:ridge;
+	border-width:medium;
+}
+#mydiv73{
+	float:left;
+        width:50px;
+        min-height:50px;
+        background:#E53935;
+	border-style:ridge;
+	border-width:medium;
+}
+#mydiv3{
+	width:210px;
+	margin:0 auto;   
+	text-align:center;
+	font-weight:bold;
+	color:#FFF;
+	margin-bottom: 10px;
+}
+#mydiv31{
+	float:left;
+        width:50px;
+        min-height:50px;
+        background:#F48FB1;
+	border-style:ridge;
+	border-width:medium;
+}
+#mydiv32{
+	float:left;
+        width:50px;
+        min-height:50px;
+        background:#F06292;
+	border-style:ridge;
+	border-width:medium;
+}
+#mydiv33{
+	float:left;
+        width:50px;
+        min-height:50px;
+        background:#EC407A;
+	border-style:ridge;
+	border-width:medium;
+}
+#mydiv1{
+    width:210px;
+    margin:0 auto;   
+    text-align:center;
+    font-weight:bold;
+    color:#FFF;
+    margin-bottom: 10px;
+}
+
+#mydiv11 {
+
+        float:left;
+        width:50px;
+        min-height:50px;
+        background:#BB8FCE;
+	border-style:ridge;
+	border-width:medium;
+}  
+
+#mydiv12 {
+        float:left;
+        width:50px;
+        min-height:50px;
+        background:#A569BD;
+	border-style:ridge;
+	border-width:medium;
+}
+#mydiv13 {
+        float:left;
+        width:50px;
+        min-height:50px;
+        background:#7D3C98;
+	border-style:ridge;
+	border-width:medium;
+}
+#mydiv8{
+	width:210px;
+    margin:0 auto;   
+    text-align:center;
+    font-weight:bold;
+    color:#FFF;;
+    margin-bottom: 10px;
+}
+#mydiv81{
+	float:left;
+        width:50px;
+        min-height:50px;
+        background:#8D6E63;
+	border-style:ridge;
+	border-width:medium;
+}
+#mydiv82{
+	float:left;
+        width:50px;
+        min-height:50px;
+        background:#6D4C41;
+	border-style:ridge;
+	border-width:medium;
+}
+#mydiv83{
+	float:left;
+        width:50px;
+        min-height:50px;
+        background:#4E342E;
+	border-style:ridge;
+	border-width:medium;
+}
+#background {
+    position: center;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 110%;
+    background-color: powderblue; 
+}
+</style>
+</head>
+<body style="margin: 100px; "><center>
+    
+
+	
+
+<script type="text/javascript">
+    var timeleft = 8;
+    var downloadTimer = setInterval(function(){
+    timeleft--;
+    document.getElementById("countdowntimer").textContent = timeleft;
+
+    if(timeleft <= 0)
+        window.location='choice for color sets.html';
+    },1000);
+
+</script>
+    <div id="background"><br>
+    <p style="font-size: 150%"><b><i> You will be redirected in <span id="countdowntimer">8 </span> Seconds</b></i></p>
+    	<div id="mydiv10">
+			<div id="mydiv101"></div>
+			<div id="mydiv102"></div>
+			<div id="mydiv103"></div> 
+		</div>
+		<div id="mydiv6">
+			<div id="mydiv61"></div>
+			<div id="mydiv62"></div>
+			<div id="mydiv63"></div> 
+		</div>
+		<div id="mydiv5">
+			<div id="mydiv51"></div>
+			<div id="mydiv52"></div>
+			<div id="mydiv53"></div> 
+		</div>
+		<div id="mydiv7">
+			<div id="mydiv71"></div>
+			<div id="mydiv72"></div>
+			<div id="mydiv73"></div> 
+		</div>
+		<div id="mydiv3">
+			<div id="mydiv31"></div>
+			<div id="mydiv32"></div>
+			<div id="mydiv33"></div> 
+		</div>
+		<div id="mydiv1">
+			<div id="mydiv11"></div>
+			<div id="mydiv12"></div>
+			<div id="mydiv13"></div> 
+		</div>
+		<div id="mydiv8">
+			<div id="mydiv81"></div>
+			<div id="mydiv82"></div>
+			<div id="mydiv83"></div> 
+		</div>
+	</div>
+	</center>
+</body>
+</html>
