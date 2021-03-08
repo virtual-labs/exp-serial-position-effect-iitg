@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Word Sequence</title>
+</head>
+<div style="background-color:powderblue;"><br>
+<body style="margin: 100px; "><center>
+	<script type="text/javascript">
+    var timeleft = 8;
+    var downloadTimer = setInterval(function(){
+    timeleft--;
+    document.getElementById("countdowntimer").textContent = timeleft;
+
+    if(timeleft <= 0)
+        window.location='choice for list of words.html';
+    },1000);
+
+</script>
+    <div id="background"><br>
+    <p style="font-size: 150%"><b><i> You will be redirected in <span id="countdowntimer">8 </span> Seconds</b></i></p>
+    	<div id="mydiv1" style="font-size: 130%; font-weight: bold; color: blue; " >
+			JANUARY
+		</div><br><br>
+		<div id="mydiv2" style="font-size: 130%; font-weight: bold; color: orange; ">
+			SEPTEMBER
+		</div><br><br>
+		<div id="mydiv3" style="font-size: 130%; font-weight: bold; color: yellow; ">
+			APRIL
+		</div><br><br>
+		<div id="mydiv4" style="font-size: 130%; font-weight: bold; color: red; ">
+			JUNE
+		</div><br><br>
+		<div id="mydiv5" style="font-size: 130%; font-weight: bold; color: brown; ">
+			OCTOBER
+		</div><br><br>
+		<div id="mydiv6" style="font-size: 130%; font-weight: bold; color: green; ">
+			DECEMBER
+		</div><br><br>
+		<div id="mydiv7" style="font-size: 130%; font-weight: bold; color: purple; ">
+			AUGUST
+		</div>
+	</div><br><br><br> 
+	</center>
+</body></div>
+</html>
