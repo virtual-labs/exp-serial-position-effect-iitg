@@ -95,7 +95,7 @@
                // b: "This is a sample answer B", ///// Write the option 2 inside double quotes
            // },
            // correctAnswer: "a" ///// Write the correct option inside double quotes
-        //},
+        },
 
   //  {
       //question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
