@@ -3,7 +3,7 @@
 1. Seven color sets each having three colors (List A) will be displayed on screen first.
 
 2. You will get only 8 seconds time to observe these seven sets.
-
+ 
 3.After 8 seconds new twelve color sets (List B) will be shown on screen.
 
 4. You need to recall which color sets from List A are present in this new List B .
@@ -17,3 +17,4 @@
 ### Part B- Word Sequence
 
 Like you did for colors the same can be tried out with words in a list. The same procedure should be followed for the Part B as in Part A.
+  
