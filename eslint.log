@@ -1,0 +1,15 @@
+
+/home/runner/work/exp-serial-position-effect-iitg/exp-serial-position-effect-iitg/experiment/posttest.js
+  18:18  warning  'letter' is not defined  no-undef
+  22:73  warning  'letter' is not defined  no-undef
+  23:13  warning  'letter' is not defined  no-undef
+  24:37  warning  'letter' is not defined  no-undef
+
+/home/runner/work/exp-serial-position-effect-iitg/exp-serial-position-effect-iitg/experiment/pretest.js
+  18:19  warning  'letter' is not defined  no-undef
+  22:74  warning  'letter' is not defined  no-undef
+  23:14  warning  'letter' is not defined  no-undef
+  24:38  warning  'letter' is not defined  no-undef
+
+✖ 8 problems (0 errors, 8 warnings)
+
